@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>Mi portfolio</title>
+    
+</head>
+<body>
+    <div class="Contenedor">
+
+        <div class="cabecera">
+            <header id="headerTop" class="top">
+                <div class="Div-Header">
+                    <h3 id="Inicio">Mi portfolio;</h3>
+                </div>
+                
+            </header>
+            <nav class="nav">
+                    <ul class="Div-Nav_UL">
+                        <div class="Div-Nav_UL-li">
+                            <li class="li_nav"><a href="#"> Inicio </a>  </li>
+                            <li class="li_nav"><a href="#MiPresentacion"> Sobre mi </a>  </li>
+                            <li class="li_nav"><a href="#Skills"> Conocimientos </a>  </li>
+                            <li class="li_nav"><a href="#Proyectos"> Mis proyectos/practicas </a>  </li>
+                            <li class="li_nav"><a href="#enviarEmail"> Contacto </a></li>
+                            <li class="li_nav"><a href="BarriosPaolaCV.pdf" target="_blank"> Descargar CV(PDF)</a></li>
+                        </div>
+                    </ul>
+            </nav>
+        </div>
+        
+        
+        <article>
+            <div class="contenido">
+                <div id="MiPresentacion" class="SobreMi-datos">
+                    <p class="SobreMi-datos_hola">
+                        Hola;
+                        
+                    </p>
+                    <h1 class="SobreMi-datos_h1">
+                    
+                        Soy <b>Paola Barrios</b>;
+                    </h1>
+                    <p class="SobreMi-datos_estoy">
+                        <br>
+                        Estoy en camino para dedicarme a la programación;
+                        <br>
+                        Actualmente estudio programación en la <b>Universidad Tecnologica Nacional frgp</b> 
+                        <br>
+                    </p>
+                        
+                    
+                    <img class="imagen-datos" src="PcAzul.png" alt="imagenPc">
+                </div>
+                
+                <div id="Skills" class="Conocimientos">
+                    <h2>Conocimientos/habilidades</h2>
+                    <div class="conocimientos_skill">
+                        <div class="Conocimientos-So">
+                            <h3>Sistemas Operativos</h3>
+                            <p>
+                                <ul>
+                                    <li>Windows ***</li>
+                                    <li>Linux Kali **</li>
+                                    <li>Linux Ubuntu **</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="Conocimientos-Lenguajes">
+                            <h3>Programacion</h3>
+                            <p>
+                                <ul>
+                                    <li>C++ ***</li>
+                                    <li>SQL **</li>
+                                    <li>C# **, CSS **, HTML **</li>
+                                    <li>Java *</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="Conocimientos-Tecnicos">
+                            <h3>Tecnicos varios</h3>
+                            <p>
+                                <ul>
+                                    <li>Paquete Office/Office 365 ***</li>
+                                    <li>Arreglo/Armado de PC ***</li>
+                                    <li>Adobe Illustrator **</li>
+                                    <li>Mantenimiento Impresoras **</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                        
+                </div>
+    
+                
+                <div  class="MisProyectos">
+                    <h2 id="Proyectos"> Proyectos y practicas Github(codigos)</h2>
+                    
+                    <div class="MisProyectos-proyectos">
+                        <div class="Tp-Winform">
+                            <label for="">TP Winform Articulos C#</label>
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/PaolaEBarrios/TPWinForm_Equipo16" target="_blank" title="CodigoTpwinform"><img src="Tpwinform.PNG" alt="tpwinform" title="TpWinform, codigo C#" id="tpwin"></a>    
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="Tp-Cmas">
+                            <label for="">TP Libreria C++</label>
+                            <ul>
+                                <li>
+                                    
+                                    <a href="https://github.com/PaolaEBarrios/Tp2-LibreriaNegocio-Consola" target="_blank" title="CodigoTPLibreriac++"><img src="libreriacmasmas.PNG" alt="libreriac"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="SqlEjercicios">
+                            <label for="">Ejercicios en SQL</label>
+                            <ul>
+                                <li>
+                                    
+                                    <a href="https://github.com/PaolaEBarrios/LABORATORIO-3" target="_blank" title="CodigoEjercicioSQLSERVER"><img src="ejerciciosSql.PNG" alt="ejercisqlServer"></a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="Contacto" id="enviarEmail">
+                    <h2>Contacto</h2>
+                    <div class="Contacto-formulario">
+                        <form class="Contacto-formulario_form">
+                        <div>
+                                <input type="text" maxlength="100" placeholder="Escriba su nombre aquí...">
+                        </div>
+                            <div>
+                                <input type="email" placeholder="Escriba su email aquí...">
+                            </div>
+                            
+                            <div>
+                                <textarea maxlength="300" placeholder="Escriba su consulta aquí..."></textarea>
+                            </div>
+                            
+                            <div>
+                                <input type="submit" id="enviar">
+                            </div>
+                                
+                        </form>
+                    </div>
+    
+                </div>
+            </div>
+            
+        </article>
+        <button class="btn-scrolltop" id="btn_scrolltop" title="Up ir arriba">
+            ^
+        </button>
+        <script>
+            const btn_scrolltop = document.getElementById("btn_scrolltop")
+            btn_scrolltop.addEventListener('click',()=>
+            {
+                window.scrollTo(
+                    0,0
+                )
+            }
+            )
+        </script>
+        <footer>
+            <div class="Div-footer">
+                <div class="Div-footer_git">
+                    <a href="https://github.com/PaolaEBarrios" target="_blank">GitHub</a>
+                </div>
+                <div class="Div-footer_wapp">
+                    <a href="https://wa.me/+5491125396544" target="_BLANK">WhatsApp</a>
+                </div>
+                <div class="Div-footer_linkedin">
+                    <a href="https://www.linkedin.com/in/paola-elizabeth-barrios-274308271/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
